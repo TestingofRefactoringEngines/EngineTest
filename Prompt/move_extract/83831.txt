@@ -1,0 +1,18 @@
+class RenameTest extends A{
+	static void foo1(Number n) {
+		System.out.println("1");
+	}
+
+	public static void main(String[] args) {
+		long n = 0;
+		foo1(n);// look here
+	}
+}
+
+class A  {
+
+	static void foo1(Long i) {
+		System.out.println("2");
+	}
+
+}

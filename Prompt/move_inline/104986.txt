@@ -1,0 +1,23 @@
+package a;
+
+class Upper {
+  class Inner {
+  }
+  Inner i;
+}
+package b;
+
+class Target {
+}
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class TargetTest {
+    @Test
+    void testInnerClassCreation() {
+        Target target = new Target(); 
+        Target.Inner innerInstance = target.new Inner(); 
+        assertNotNull(innerInstance); 
+}
+}

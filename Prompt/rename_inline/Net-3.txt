@@ -1,0 +1,15 @@
+class ParentClass {
+	void methodToBeRenamed() {
+	}
+}
+
+class SourceClass {
+	void method() {
+	}
+
+	class InnerClass extends ParentClass {
+		void testMethod() {
+			method();
+		}
+	}
+}

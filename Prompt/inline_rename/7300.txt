@@ -1,0 +1,40 @@
+class A {
+	void m(Object m) {
+		System.out.println("A");
+	}
+      // inline method 'test()'
+	void test() {
+		m("1");
+	}
+}
+
+class B extends A {
+	void m(Object m) {
+		System.out.println("B");
+	}
+
+	void f() {
+		test();
+	}
+}
+
+
+import org.junit.jupiter.api.Test;
+import static org.mockito.Mockito.*;
+
+class ATest {
+    @Test
+    void testF() {
+        A a = new A();
+        a.f();
+    }
+}
+
+class BTest {
+    @Test
+    void testF() {
+        B b = new B();
+        b.f(); 
+    }
+}
+

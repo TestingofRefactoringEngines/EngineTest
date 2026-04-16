@@ -1,0 +1,14 @@
+You are an expert in software testing and refactoring, please modify the following historical refactoring case based on the given example to generate test cases for other refactoring types：
+[Example of source code:[Class A{static public void m(int i){} private void k(){}}refactoring type: rename method; refactoring operation: rename "k()" t0 "m()"]
+Rename transformation migrated to Inline Refactoring：Class A{static public void m(int i){} private void k(){int a; System.out.println(a)}}
+Please perform similar migrations on the follo
+wing programs as described above, and fill in the concrete Inline Refactoring code example after migration,change variable:[source code: class X {
+  public static final String s = "s";
+
+  public static void main(String... args) {
+    String s1 = s; // rename s1 to s (Shift+F6)
+  }
+}
+][refactoring type: rename variable; refactoring operation: rename "s1" to "s"]
+
+[The result of migration to Inline Refactoring：{}]

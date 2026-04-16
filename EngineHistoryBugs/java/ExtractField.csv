@@ -1,0 +1,11 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+,string,,303617,https://bugs.eclipse.org/bugs/show_bug.cgi?id=303617,extract constant
+A ,foo + 5,newLocalVariable,307758,https://bugs.eclipse.org/bugs/show_bug.cgi?id=307758,extract constant
+ClassA,ClassA.staticMethod(),,118133,https://bugs.eclipse.org/bugs/show_bug.cgi?id=118133,extract constant
+,,,91324,https://bugs.eclipse.org/bugs/show_bug.cgi?id=91324,extract constant
+,String,,80664,https://bugs.eclipse.org/bugs/show_bug.cgi?id=80664,Extract Constant
+,,,1023,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/1023,Extract Constant
+,,,146787,https://youtrack.jetbrains.com/issue/IDEA-146787/Refactor-Extract-constant-places-constant-in-wrong-class,extract constant
+SomeClass,__REQUEST_PARAMETERS,ModelName,118166,https://youtrack.jetbrains.com/issue/IDEA-118166/Extracting-a-constant-from-annotation-value-does-not-search-for-the-same-value-within-the-code,extract constant
+Test,"""class""",,85307,https://youtrack.jetbrains.com/issue/IDEA-85307/Extract-constant-in-interface-adds-private-modifier-to-generated-constant,extract constant
+,,,97682,https://youtrack.jetbrains.com/issue/IDEA-97682/Extract-constant-fails-for-Strings-which-contain-XPath-expressions,extract constant

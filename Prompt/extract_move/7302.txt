@@ -1,0 +1,11 @@
+class B {
+	void f() {
+		int t;
+	}
+	}
+
+class A extends B {
+	static public void m() {
+	}
+}
+

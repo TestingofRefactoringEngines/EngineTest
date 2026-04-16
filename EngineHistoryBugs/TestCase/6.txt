@@ -1,0 +1,19 @@
+public class TestCase {
+	   public static void main(String[] args) {
+	        NewClass outer = new NewClass();
+	        NewClass.B inner = outer.new B();
+	        
+	        // This will cause infinite recursion after refactoring
+	        inner.k();
+	    }
+}
+
+class NewClass {
+	   // change method signature 'm' to 'k'
+	   public void k(){}
+	   class B{
+	       void k(){
+	           k();
+	       }
+	   }
+	}

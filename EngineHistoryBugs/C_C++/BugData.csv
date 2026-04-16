@@ -1,0 +1,75 @@
+ID,product,comp,assignee,summary
+240692,CDT,cdt-refa,cdt-core-inbox,[Refactoring] Rename on func-tmpl misses some specializations
+332257,CDT,cdt-refa,cdt-refactoring-inbox,renaming a macro doesn't change its usage within another macro
+353866,CDT,cdt-refa,cdt-refactoring-inbox,Rename Refactoring Fails when renaming while editors are dirty
+360795,CDT,cdt-refa,cdt-refactoring-inbox,Rename refactoring on struct fields renames different struct fields too
+371838,CDT,cdt-refa,cdt-refactoring-inbox,[Extract Local Variable] Suggested name is wrong for chained function calls with literal in last call
+386473,CDT,cdt-refa,cdt-refactoring-inbox,refactoring extract local variable only replaces first occurrence
+395564,CDT,cdt-refa,cdt-refactoring-inbox,'Extract local variable' refactoring on expression with dependent type makes type of extracted variable 'void'
+396336,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function incorrectly allows extracting the left-hand side of an assignment (expression)
+396338,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function incorrectly extracts function name (identifier expression) from function call expressions
+396339,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function passes pointer parameters but assigns as integer
+396340,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function omits return type
+396341,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function incorrectly extracts the structure name from an element array expression
+396348,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function constructs function with return type "*"
+396361,CDT,cdt-refa,cdt-refactoring-inbox,CDT allows renaming declarations in system headers/external libraries
+396367,CDT,cdt-refa,cdt-refactoring-inbox,The exception occurs when the refactoring is attempted on a file with syntactic errors
+396468,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function incorrectly extracts conditional macros
+396658,CDT,cdt-refa,cdt-refactoring-inbox,Extract Function incorrectly extracts code to a function with the same name of an existing one
+397275,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Extract constant refactoring allows to define a constant with the same name of an existent variable
+397278,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Extract local variable refactoring allows to define a new variable with a name of an existent variable
+399210,CDT,cdt-refa,cdt-refactoring-inbox,Extract Constant incorrectly extracts case labels in switch statements
+399211,CDT,cdt-refa,cdt-refactoring-inbox,Extract Constant throws an exception extracting constants in return statements
+399212,CDT,cdt-refa,cdt-refactoring-inbox,Extract Constant incorrectly extracts a string literal
+425423,CDT,cdt-refa,cdt-refactoring-inbox,"Renaming parameter to a keyword, leading to a compilation error"
+425428,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming parameter to a pointer
+425433,CDT,cdt-refa,cdt-refactoring-inbox,"Renaming variable to a memory address (& operator), leading to a compilation error"
+425434,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming variable to a pointer
+425435,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming a macro-defined token
+425438,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting function with an existing name
+425444,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting variable with an existing name
+425445,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting variable with invalid name (keyword)
+425446,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting a define to a local variable
+425465,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when renaming function with invalid name (keyword)
+425466,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when renaming function with invalid name
+425467,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming function (using the * operator)
+425470,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting constant with an existing name
+425471,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when extracting constant using existing parameter name
+425488,CDT,cdt-refa,cdt-refactoring-inbox,Overly strong condition when attempting to rename a variable
+425489,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when renaming parameter to an invalid name
+425491,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when renaming macro to an invalid name
+425622,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming macro-defined token
+425623,CDT,cdt-refa,cdt-refactoring-inbox,Changing behavior when renaming macro to an existing name
+425941,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when renaming macro
+425942,CDT,cdt-refa,cdt-refactoring-inbox,Overly strong condition when attempting to rename a parameter
+426635,CDT,cdt-refa,cdt-refactoring-inbox,"Renaming parameter to a spaced name, leading to a compilation error"
+426636,CDT,cdt-refa,cdt-refactoring-inbox,"Renaming parameter to a memory address (& operator), leading to a compilation error"
+426889,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a macro to a keyword shouldn't be allowed
+426890,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a macro to a literal shouldn't be allowed
+426891,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a macro to an address reference shouldn't be allowed
+426892,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a macro to a pointer shouldn't be allowed
+426893,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a variable to memory reference shouldn't be allowed
+426894,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a variable to a keyword shouldn't be allowed
+426895,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a variable to a literal shouldn't be allowed
+426896,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a variable using blank spaces shouldn't be allowed
+426899,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming a variable to a pointer shouldn't be allowed
+426922,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming function to a literal shouldn't be allowed
+426924,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming function to a pointer shouldn't be allowed
+426925,CDT,cdt-refa,cdt-refactoring-inbox,[Refactoring] Renaming function to a memory reference shouldn't be allowed
+435121,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting a local variable using a name with blank spaces
+435122,CDT,cdt-refa,cdt-refactoring-inbox,Compilation error when extracting variable with invalid name (literal)
+435124,CDT,cdt-refa,cdt-refactoring-inbox,Renaming a local variable to a literal shouldn't be allowed
+435125,CDT,cdt-refa,cdt-refactoring-inbox,Rename a local variable to a name with blank spaces shouldn't be allowed
+435128,CDT,cdt-refa,cdt-refactoring-inbox,Extract constant refactoring allows to define a constant with blank spaces in the name
+435129,CDT,cdt-refa,cdt-refactoring-inbox,Extract constant refactoring allows to define a constant with a keyword as the name
+435130,CDT,cdt-refa,cdt-refactoring-inbox,Extract constant refactoring allows to define a constant with a pointer address as the name
+435131,CDT,cdt-refa,cdt-refactoring-inbox,Extract constant refactoring allows to define a constant with the same name as an existing define
+435132,CDT,cdt-refa,cdt-refactoring-inbox,Extract constant refactoring allows to define a constant with a pointer as the name
+463005,CDT,cdt-refa,cdt-refactoring-inbox,Rename class misses specialization constructor and destructor
+482953,CDT,cdt-refa,cdt-refactoring-inbox,"Renaming a parameter variable of a function declaration, renames local variables of other functions."
+484613,CDT,cdt-refa,cdt-refactoring-inbox,'Extract local variable' refactoring on an lvalue expression should make the type of the extracted variable a reference
+491274,CDT,cdt-refa,cdt-refactoring-inbox,Cannot use Extract Function on code that contains a lambda
+509060,CDT,cdt-refa,cdt-refactoring-inbox,[Extract Function] incorrectly extract multiple insertion operations (<<)
+536160,CDT,cdt-refa,cdt-refactoring-inbox,Rename refactoring a template function not updating source file
+56653,CDT,cdt-core,cdt-core-inbox,[Refactoring] Difficult to rename methods that are in files included within a class
+78964,CDT,cdt-core,cdt-core-inbox,Rename-refactor of anonymous structs

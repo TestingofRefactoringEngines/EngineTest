@@ -1,0 +1,8 @@
+interface IFoo {
+  }
+
+   class Foo {
+   IFoo f;
+    public void test() {
+    }
+  }

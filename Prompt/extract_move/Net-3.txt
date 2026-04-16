@@ -1,0 +1,17 @@
+class ParentClass {
+	void f() {
+        // extract method, new method name 'method'
+		int i;
+	}
+}
+
+class SourceClass {
+	void method() {
+	}
+
+	class InnerClass extends ParentClass {
+		void testMethod() {
+			method();
+		}
+	}
+}

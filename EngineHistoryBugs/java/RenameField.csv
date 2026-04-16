@@ -1,0 +1,10 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+Circle,radius,,559681,https://bugs.eclipse.org/bugs/show_bug.cgi?id=559681,rename field
+,,,564329,https://bugs.eclipse.org/bugs/show_bug.cgi?id=564329,rename field
+Foo ,a,d,310867,https://bugs.eclipse.org/bugs/show_bug.cgi?id=310867,rename field
+Issue ,abcde,,215137,https://bz.apache.org/netbeans/show_bug.cgi?id=215137,rename field
+,newName,,108026,https://youtrack.jetbrains.com/issue/IDEA-108026/Renaming-an-entity-field-does-not-rename-the-setter-method-parameter,rename field
+Bean,Bean,isEnabled,104417,https://youtrack.jetbrains.com/issue/IDEA-104417/Refactoring-creates-silly-assignment,rename field
+A,a,b,125934,https://youtrack.jetbrains.com/issue/IDEA-125934/Rename-field-refactoring-shadows-local-but-doesnt-notify-user,rename field
+Foo,setFoo,,146229,https://youtrack.jetbrains.com/issue/IDEA-146229/parameter-name-in-interface-method-is-not-renamed,rename field
+B,j,i,7299,https://github.com/apache/netbeans/issues/7299,Rename field

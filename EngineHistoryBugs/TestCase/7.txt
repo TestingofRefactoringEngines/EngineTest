@@ -1,0 +1,25 @@
+import java.lang.reflect.Method;
+public class TestCase {
+	   public static void main(String[] args) {
+		   try {
+	            A.main(args); // Execute the main method which uses reflection
+	        } catch (Exception e) {
+	            System.out.println("Exception type: " + e.getClass().getName());
+	            System.out.println("Exception message: " + e.getMessage());
+	            e.printStackTrace();
+	        }
+	    }
+}
+
+class A extends B{
+    public static void main(String[] args) throws Exception {
+        Class<?> clazz = Class.forName("A");
+        Method method = clazz.getMethod("doSomething");
+        method.invoke(clazz.newInstance());
+    }
+}
+class B {
+    public void doSomething() {
+        System.out.println("In A");
+    }
+}

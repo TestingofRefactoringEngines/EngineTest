@@ -1,0 +1,9 @@
+public class Example {
+    public void foo(int value) {
+        bar();
+    }
+
+    private void bar() {
+        System.out.println("Hello");
+    }
+}

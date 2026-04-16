@@ -1,0 +1,10 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+A,foo,B,342074,https://bugs.eclipse.org/bugs/show_bug.cgi?id=342074,move field
+A,foo,B,328554,https://bugs.eclipse.org/bugs/show_bug.cgi?id=328554,move field
+Bar,FOO,Foo,114539,https://bugs.eclipse.org/bugs/show_bug.cgi?id=114539,move field
+Inner,Inner,Inner,107998,https://bugs.eclipse.org/bugs/show_bug.cgi?id=107998,move field
+,,,163918,https://bz.apache.org/netbeans/show_bug.cgi?id=163918,move 
+,,,102024,https://youtrack.jetbrains.com/issue/IDEA-102024/Moving-fields-from-one-class-to-another-can-be-incorrect,move field
+A,,Outer,106175,https://youtrack.jetbrains.com/issue/IDEA-106175/move-constant-from-nested-class-to-outer-generates-bad-code-sometimes-if-constant-used-in-annotation,move constant
+Test1,TEST,Test2,109272,https://youtrack.jetbrains.com/issue/IDEA-109272/Move-Members-refactoring-breaks-switch-statement-with-strings,move field
+Class1,INITIALIZED_LATER ,Class2,83353,https://youtrack.jetbrains.com/issue/IDEA-83353/When-move-refactoring-is-invoked-for-constant-initialized-in-static-initializer-it-breaks-compilation,move field

@@ -1,0 +1,20 @@
+package b;
+
+public class B {
+	public void m() {
+		A a = new A();
+		a.moveMe();
+	}
+}
+package a;
+class A {
+	public B b = new B();
+
+	static void staticMethod() {
+	}
+
+	void moveMe() {
+		b.m();
+		staticMethod();
+	}
+}

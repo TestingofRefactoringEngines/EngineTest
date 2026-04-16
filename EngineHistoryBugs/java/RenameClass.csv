@@ -1,0 +1,12 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+X2,Y1,Y2,570245,https://bugs.eclipse.org/bugs/show_bug.cgi?id=570245,rename enum
+,,,297825,https://bugs.eclipse.org/bugs/show_bug.cgi?id=297825,rename class
+Bug,Object,,53857,https://bugs.eclipse.org/bugs/show_bug.cgi?id=53857,rename class
+Foo,Foo,Foo1,119822,https://bugs.eclipse.org/bugs/show_bug.cgi?id=119822,rename class
+,,,85133,https://bugs.eclipse.org/bugs/show_bug.cgi?id=85133,rename class
+Test,Dummy,DummyA,82673,https://bugs.eclipse.org/bugs/show_bug.cgi?id=82673,rename class
+,something,,270036,https://bz.apache.org/netbeans/show_bug.cgi?id=270036,Rename class
+BaseClass,BaseClass,DerivedClass,250415,https://bz.apache.org/netbeans/show_bug.cgi?id=250415,rename class
+ITest,ITest,ITest1,158,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/158,rename interface
+,,,154614,https://youtrack.jetbrains.com/issue/IDEA-154614/Rename-Class-refactoring-does-not-work-for-classes-with-inheriotors-with-lombok.NoArgsConstructor,rename class
+Foo,Baz,Baz ,153148,https://youtrack.jetbrains.com/issue/IDEA-153148/lambda-parameter-name-is-not-suggested-to-be-renamed-with-the-class,rename class

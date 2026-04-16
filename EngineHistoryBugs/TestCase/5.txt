@@ -1,0 +1,31 @@
+public class TestCase {
+	 public static void main(String[] args) {
+	        long primitiveLong = 0L;
+	        Long wrapperLong = Long.valueOf(0L);
+	        Number numberRef = Long.valueOf(0L);
+	        
+	        // Test method resolution with different argument types
+	        System.out.println("Testing primitive long:");
+	        RenameTest.foo1(primitiveLong);  // Most critical test
+	        
+	        System.out.println("Testing Long wrapper:");
+	        RenameTest.foo1(wrapperLong);
+	        
+	        System.out.println("Testing Number reference:");
+	        RenameTest.foo1(numberRef);
+	    }
+}
+
+class RenameTest {
+	   static void foo1(Number n) {
+	       System.out.println("1");
+	   }
+	   //change method signature: new method name "foo1"
+	   static void foo1(Long i) {
+	       System.out.println("2");
+	   }
+	   public static void main(String[] args) {
+	       long n = 0;
+	       foo1(n);// look here
+	   }
+	}

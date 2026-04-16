@@ -1,0 +1,13 @@
+class Order {
+    String item;
+
+    void printItem() {
+        System.out.println(item);
+    }
+}
+
+class OrderProcessor {
+    void process() {
+        new Order().printItem(); 
+    }
+}

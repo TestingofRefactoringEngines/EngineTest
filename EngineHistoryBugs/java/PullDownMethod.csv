@@ -1,0 +1,7 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+C,m,PushDownBug1,394728,https://bugs.eclipse.org/bugs/show_bug.cgi?id=394728,push down method
+,,,209937,https://bugs.eclipse.org/bugs/show_bug.cgi?id=209937,push down method
+SuperType,stat,Subtype,97213,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97213,push down method
+SuperClass,NewClass,NewClass,219199,https://bz.apache.org/netbeans/show_bug.cgi?id=219199,Push Down
+,,,254705,https://bz.apache.org/netbeans/show_bug.cgi?id=254705,Push Down
+FooExt,m,foo,311776,https://youtrack.jetbrains.com/issue/IDEA-311776/Incorrect-warning-that-static-members-cant-be-pushed-down-to-non-static-classes,push down method

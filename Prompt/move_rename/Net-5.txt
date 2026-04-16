@@ -1,0 +1,10 @@
+interface I {
+
+}
+
+class A {
+	I i;
+
+	void method() {
+	};// hashCode
+}

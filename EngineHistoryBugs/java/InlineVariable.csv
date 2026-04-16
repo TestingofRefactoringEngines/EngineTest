@@ -1,0 +1,28 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+testIt,test,,295200,https://bugs.eclipse.org/bugs/show_bug.cgi?id=295200,inline local variable
+,,,330415,https://bugs.eclipse.org/bugs/show_bug.cgi?id=330415,inline expression
+i,i,,11664,https://bugs.eclipse.org/bugs/show_bug.cgi?id=11664,inline local variable
+,,,86968,https://bugs.eclipse.org/bugs/show_bug.cgi?id=86968,inline local variable
+,,,223340,https://bz.apache.org/netbeans/show_bug.cgi?id=223340,Introduce Local Extension
+,declaringClass,,113,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/113,inline variable
+,bla,,195246,https://youtrack.jetbrains.com/issue/IDEA-195246/Inline-this-variable-only-and-keep-this-reference-Cannot-perform-refactoring-variable-is-accessed-for-writing,inline variable
+main,inlineMe,,336815,https://youtrack.jetbrains.com/issue/IDEA-336815/Inline-variable-misleading-error-message-when-compile-errors-are-present,inline variable
+,,,338428,https://youtrack.jetbrains.com/issue/IDEA-338428/Inline-pattern-variable-doesnt-work-when-its-located-in-nested-condition,inline variable
+isDefault,labels,,104536,https://youtrack.jetbrains.com/issue/IDEA-104536/red-code-after-inline-variable,inline variable
+m,inlineMe,,109541,https://youtrack.jetbrains.com/issue/IDEA-109541/Inline-resource-variable-leaves-uncompilable-code,inline variable
+testInlineRefactoring,index,,90740,https://youtrack.jetbrains.com/issue/IDEA-90740/Inline-refactoring-fails-to-run-when-it-clearly-could,inline variable
+,iii,,91288,https://youtrack.jetbrains.com/issue/IDEA-91288/Inline-Refactoring-should-not-be-allowed-for-variables-initialized-with-condition,inline variable
+getInputUnchecked,in,,90390,https://youtrack.jetbrains.com/issue/IDEA-90390/Inline-variable-performed-incorrectly-for-return-inside-try,inline variable
+,handler,,143340,https://youtrack.jetbrains.com/issue/IDEA-143340/Inline-lambda-variable-may-produce-uncompilable-code,inline variable
+main,LISTENER,,83713,https://youtrack.jetbrains.com/issue/IDEA-83713/Inline-variable-incorrect-result-for-variables-that-are-initialized-by-a-static-method-call,inline variable
+checkModifierIsNotAllowedImpl,has,,97902,https://youtrack.jetbrains.com/issue/IDEA-97902/Inline-conditional-expression.-unnecessary-cast-to-boolean,inline variable
+withStream,leg,,151960,https://youtrack.jetbrains.com/issue/IDEA-151960/Unable-to-inline-variable-used-in-lambda,inline variable
+main,t,,152600,https://youtrack.jetbrains.com/issue/IDEA-152600/Inline-variable-which-represent-functional-reference-breaks-method-refence,inline variable
+replaceProcessID,content,,135610,https://youtrack.jetbrains.com/issue/IDEA-135610/Inline-variable-doesnt-work-in-special-case,inline variable
+,params,,153700,https://youtrack.jetbrains.com/issue/IDEA-153700/Inline-variable-with-2-dimension-array-produces-uncompilable-code,inline variable
+test,a,,152837,https://youtrack.jetbrains.com/issue/IDEA-152837/Need-casting-for-inlined-variables,inline variable
+bar,foo,,152883,https://youtrack.jetbrains.com/issue/IDEA-152883/Non-required-cast-when-inline-this-reference-inside-local-class,inline variable
+x,hello,,91421,https://youtrack.jetbrains.com/issue/IDEA-91421/JDK-1.8-Inline-Refactoring-confusing-message-is-shown-on-attempt-to-inline-a-variable-defined-in-a-lambda-and-accessed-for,inline variable
+asd,p,,91061,https://youtrack.jetbrains.com/issue/IDEA-91061/JDK-1.8-Inline-Refactoring-doesnt-allow-to-inline-local-variables-to-lambdas,inline variable
+,java,,90879,https://youtrack.jetbrains.com/issue/IDEA-90879/JDK-1.8-Inline-Refactoring-should-handle-lambdas-properly,inline variable
+x,hello,,91371,https://youtrack.jetbrains.com/issue/IDEA-91371/JDK-1.8-Inline-Refactoring-doesnt-allow-to-inline-a-variable-declared-in-a-lambda,inline variable

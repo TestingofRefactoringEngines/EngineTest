@@ -1,0 +1,4 @@
+int main(int a, char** argv) {
+    int x = 0; // 0 to be extracted, name "a"
+    return a;
+}

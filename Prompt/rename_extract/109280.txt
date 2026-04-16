@@ -1,0 +1,14 @@
+private void update(int value) {
+    System.out.println(value);
+}
+
+
+After Refactoring (Change Method Signature):
+
+private void update(String value) { // Error: method called with int instead of String.
+    System.out.println(value);
+}
+
+private void process() {
+    update(5); // Compile error: method signature does not match.
+}

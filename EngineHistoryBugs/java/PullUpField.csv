@@ -1,0 +1,13 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+Sub,b,Super,62854,https://bugs.eclipse.org/bugs/show_bug.cgi?id=62854,pull up field
+Foo,foo,TestRefactor,29391,https://bugs.eclipse.org/bugs/show_bug.cgi?id=29391,pull up field
+A,VALUE,Super,77438,https://bugs.eclipse.org/bugs/show_bug.cgi?id=77438,pull up field
+C,value,I,131348,https://bugs.eclipse.org/bugs/show_bug.cgi?id=131348,pull up field
+C,test,B,142291,https://youtrack.jetbrains.com/issue/IDEA-142291/Pull-members-up-to-cyclically-dependent-class-causes-StackOverflowError,pull members up
+B,m,A,144043,https://youtrack.jetbrains.com/issue/IDEA-144043/Pull-Members-Up-refactoring-breaks-code,pull members up
+A,,Collection,87191,https://youtrack.jetbrains.com/issue/IDEA-87191/Pull-Members-Up-refactor-fails-to-merge-superinterfaces,pull members up
+Foo,foo,Base,87543,https://youtrack.jetbrains.com/issue/IDEA-87543/Pull-Members-Up-fails-when-class-type-parameters-are-aliased-with-superclass-type-parameters,pull members up
+Mammal,identifyMyself,Animal,151756,https://youtrack.jetbrains.com/issue/IDEA-151756/Pull-member-Up-refactoring-seems-work-incorrectly-for-interface-extention,pull members up
+JsamImpl,foo,JSam,111017,https://youtrack.jetbrains.com/issue/IDEA-111017/Pull-Members-Up-Push-Members-Down-Refactorings-applied-to-an-interface-could-warn-about-the-interface-usages-as-anonymous,Pull Members Up
+Inner,innerMethod,BaseInner,151942,https://youtrack.jetbrains.com/issue/IDEA-151942/Problems-with-Pulling-Up-method-of-Inner-class,Pull Members Up
+Bbb,foo,Aaa,91679,https://youtrack.jetbrains.com/issue/IDEA-91679/JDK-1.8-Pull-Members-Up-Refactoring-incorrectly-pulls-default-methods,Pull Members Up

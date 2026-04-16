@@ -1,0 +1,7 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+A,method1,B,98166,https://bz.apache.org/netbeans/show_bug.cgi?id=98166,Push Down Field
+A,,B,86870,https://youtrack.jetbrains.com/issue/IDEA-86870/Push-Members-Down-for-implements-element-loses-generic-parameters,push members down
+Parent,foo,Child,155581,https://youtrack.jetbrains.com/issue/IDEA-155581/Push-down-refactoring-may-create-uncompilable-code-for-bounded-wildcard-generics,Push members down
+Parent,p,Child,155578,https://youtrack.jetbrains.com/issue/IDEA-155578/Push-members-down-no-warning-when-move-generic-method-to-not-parametrized-super-class,Push members down
+B,foo,A,155596,https://youtrack.jetbrains.com/issue/IDEA-155596/Push-members-down-JavaDoc-As-is-option-always-copy-comments-of-interfaces,Push members down
+C,foo,I,155600,https://youtrack.jetbrains.com/issue/IDEA-155600/Push-members-down-do-not-remove-Override-when-default-method-conflict-with-class-implementation,Push members down

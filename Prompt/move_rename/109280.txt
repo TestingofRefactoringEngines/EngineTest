@@ -1,0 +1,14 @@
+class A {
+    B b;
+    int value = 10;
+
+    void display() {
+        System.out.println(value);
+    }
+}
+
+class B {
+    void print() {
+        new A().display();
+    }
+}

@@ -1,0 +1,12 @@
+public class Example {
+    public void foo(int value) {
+        if (value > 0) {
+            bar(value);
+        }
+    }
+
+    private void bar(int value) {
+        System.out.println(value);
+        return; // 此处有一个return
+    }
+}

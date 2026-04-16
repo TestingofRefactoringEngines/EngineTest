@@ -1,0 +1,17 @@
+class OriginalClass {
+    C b;
+// move class 'StaticInnerClass' to 'C'
+    class StaticInnerClass {
+        public static void innerMethod() {
+        }
+    }
+
+    public void original() {
+        StaticInnerClass.innerMethod();
+    }
+}
+
+
+class C {
+
+}

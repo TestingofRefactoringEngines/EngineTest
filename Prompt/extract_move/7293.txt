@@ -1,0 +1,9 @@
+public class ExtractVariableTest {
+public void method() {
+int a;
+if (true) {
+// select "a" to extract variable refactoring
+a = 3;
+}
+}
+}

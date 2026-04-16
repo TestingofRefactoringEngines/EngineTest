@@ -1,0 +1,32 @@
+public class Test {
+	  public static void main(String[] args) {
+	        C obj = new C();
+	        
+	        // Test Case: Invoke the pulled-down method f() in class C
+	        obj.f();
+	        
+	        // Additional verification: Check method resolution with different reference types
+	        B bRef = new C();
+	        // bRef.f();  // This would fail to compile since f() is now only in C
+	    }
+}
+class A {
+	   void m(Object m) {
+	       System.out.println("A");
+	   }
+	}
+
+	class B extends A {
+	   void k(String m) {
+	       System.out.println("B");
+	   }
+	   // pull down 'f()'
+	   void f() {
+	       m("1");
+	   }
+	}
+	class C extends B{
+	   void m(String m) {
+	       System.out.println("B");
+	   }
+	}

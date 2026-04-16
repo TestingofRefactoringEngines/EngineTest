@@ -1,0 +1,41 @@
+SourceClass,Position,newName,id_number,html_url,refactoring type
+X,select the entire o instanceof X x,extracted,566881,https://bugs.eclipse.org/bugs/show_bug.cgi?id=566881,extract method
+,,,430267,https://bugs.eclipse.org/bugs/show_bug.cgi?id=430267,extract method
+ I2,i1,,406786,https://bugs.eclipse.org/bugs/show_bug.cgi?id=406786,extract Method
+X,lambda expressions,m1,407985,https://bugs.eclipse.org/bugs/show_bug.cgi?id=407985,extract method
+,,,386518,https://bugs.eclipse.org/bugs/show_bug.cgi?id=386518,extract method
+,switch,,352785,https://bugs.eclipse.org/bugs/show_bug.cgi?id=352785,extract method
+A,122,,366281,https://bugs.eclipse.org/bugs/show_bug.cgi?id=366281,extract method
+f,if,,109280,https://bugs.eclipse.org/bugs/show_bug.cgi?id=109280,extract method
+A,expression,,122389,https://bugs.eclipse.org/bugs/show_bug.cgi?id=122389,extract method
+BugTest ,expression,,116342,https://bugs.eclipse.org/bugs/show_bug.cgi?id=116342,extract method
+,,,107026,https://bugs.eclipse.org/bugs/show_bug.cgi?id=107026,extract method
+A,list.size(),,97478,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97478,extract method
+foo,case expression,,81178,https://bugs.eclipse.org/bugs/show_bug.cgi?id=81178,extract method
+,,,90907,https://bugs.eclipse.org/bugs/show_bug.cgi?id=90907,extract method
+amount,expression,,1286,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/1286,extract method
+DummyClass,STR."ABC \{str1}",,331198,https://youtrack.jetbrains.com/issue/IDEA-331198/Exception-upon-Extract-method-on-String-template,extract method
+X,Runnable,test,313673,https://youtrack.jetbrains.com/issue/IDEA-313673/Extracted-method-erroneous-marked-as-static-despite-it-refers-non-static-class,extract method
+A,f,,122014,https://youtrack.jetbrains.com/issue/IDEA-122014/Extract-method-duplicates-analysis-fails-in-case-of-inner-classes,extract method
+execute,expression,,125259,https://youtrack.jetbrains.com/issue/IDEA-125259/Extract-method-removes-generic-casts,extract method
+Example,System.out.println(value);,print,139292,https://youtrack.jetbrains.com/issue/IDEA-139292/Extract-method-refactoring-in-local-anonymous-class-introduces-unnecessary-parameter,extract method
+guessTestDataName,expression,,141562,https://youtrack.jetbrains.com/issue/IDEA-141562/Extract-method-does-not-generate-required-parameter,extract method
+test,,,142163,https://youtrack.jetbrains.com/issue/IDEA-142163/Extract-method-failure-in-Java8-lambda,extract method
+,,,112570,https://youtrack.jetbrains.com/issue/IDEA-112570/Extract-Method-from-statement-lambda-does-not-take-parameters-from-enclosing-scope,extract method
+,,,92815,https://youtrack.jetbrains.com/issue/IDEA-92815/Extract-method-refactoring-with-Fold-parameters-is-too-clever-breaks-functioning-code,extract method
+,,,91985,https://youtrack.jetbrains.com/issue/IDEA-91985/Extract-method-does-not-work-when-a-comment-is-selected-at-the-end-of-the-statements,extract method
+foo,try,,146332,https://youtrack.jetbrains.com/issue/IDEA-146332/Extract-method-produces-invalid-code,extract method
+IntellijFail,,getPojo,132706,https://youtrack.jetbrains.com/issue/IDEA-132706/Extract-method-incorrectly-replaces-break-with-return,extract method
+getLociEnrichment,,,133095,https://youtrack.jetbrains.com/issue/IDEA-133095/Extract-method-refactoring-produces-incorrect-code,extract method
+foo,getSubstring,,98396,https://youtrack.jetbrains.com/issue/IDEA-98396/Extract-method-insert-casts-in-duplicated-usages,extract method
+ExampleEntity,,,152334,https://youtrack.jetbrains.com/issue/IDEA-152334/Refactor-Extract-Method-leads-to-Variable-...-is-already-defined-in-the-scope,extract method
+create,,,87320,https://youtrack.jetbrains.com/issue/IDEA-87320/Extract-Method-creates-conflicting-local-variable,extract method
+MethodExtraction,,,153692,https://youtrack.jetbrains.com/issue/IDEA-153692/Refactror.-Extract-method-generates-code-with-error.,extract method
+LambdaEmo,() -> System.out.println(this.ownField + this.ownMethod()),,152851,https://youtrack.jetbrains.com/issue/IDEA-152851/Extract-Method-Object-incompilable-result-in-case-of-this-and-super-and-anonymous-class-creation,extract method
+Test,System.out.println(a);,foo,87654,https://youtrack.jetbrains.com/issue/IDEA-87654/Extract-method-fails-to-detect-input-variable-if-code-fragment-is-located-in-unreachable-else-branch,extract method
+X,new StringReader("");,getStringReader,155518,https://youtrack.jetbrains.com/issue/IDEA-155518/Extract-method-leaves-fully-qualified-name,extract method
+Simple,b.x,method,98290,https://youtrack.jetbrains.com/issue/IDEA-98290/Refactor-Extract-Method-Object-invalid-resulting-code-for-extracting-from-static-method-with-processing-duplicates,extract method
+usage,,,97777,https://youtrack.jetbrains.com/issue/IDEA-97777/Extract-method-on-overloaded-methods-with-objects-in-same-hierarchy,extract method
+,System.out.println("" + (Object)a);,test,79743,https://youtrack.jetbrains.com/issue/IDEA-79743/Extract-method-produces-redundant-cast,extract method
+calculate,switch (value) { .... }?,newMethod,7290,https://github.com/apache/netbeans/issues/7290,Extract method
+ExtractMethodTest?, this.value = value;,newMethod,7288,https://github.com/apache/netbeans/issues/7288,extract method

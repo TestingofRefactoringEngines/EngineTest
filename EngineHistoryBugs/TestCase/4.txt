@@ -1,0 +1,26 @@
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+public class TestCase {
+	public static void main(String[] args) {
+        Test test = new Test();
+        try {
+            // This test case will expose the reflection breakage
+            test.test();
+        } catch (Exception e) {
+            // Print the exact exception to demonstrate the failure
+            System.out.println("Exception type: " + e.getClass().getSimpleName());
+            System.out.println("Exception message: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+
+class SomeService{
+	   public void newMethod(){}
+	}
+	class Test{
+	   void test() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+	       Method method = SomeService.class.getMethod("methodToBeRenamed",null);
+	       method.invoke(new SomeService());
+	   }
+	}

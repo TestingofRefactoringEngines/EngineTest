@@ -1,0 +1,28 @@
+public class Test {
+	   public static void main(String[] args) {
+	        B obj = new B();
+	        
+	        // Test Case 1: Call the extracted method with null parameter
+	        obj.k();  // This should invoke the new static m(String s) method
+	        
+	        // Test Case 2: Call method f() which uses string literal
+	        obj.f();  // This should demonstrate method resolution conflict
+	    }
+}
+class A {
+	   void m(Object m) {
+	       System.out.println("A");
+	   }
+	}
+
+	class B extends A {
+	   void k() {
+	       String s=null;
+	       //extract statements， new method name is ‘m()’
+	       System.out.println(s);
+	   }
+
+	   void f() {
+	       m("1");
+	   }
+	}

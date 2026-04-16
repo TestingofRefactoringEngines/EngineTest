@@ -1,0 +1,8 @@
+When I select "5" and perform the extract local variable refactoring, the new method name is "localVar" and I click "OK", a syntax compilation error occurs：
+
+public class ExtractVariableTest {
+public void method(int localVar) {
+// extract variable: 5, rename "localVar"
+System.out.println(5);
+}
+}

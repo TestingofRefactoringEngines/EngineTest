@@ -1,0 +1,9 @@
+class Example {
+    private void printValue(int value) {
+        System.out.println(value);
+    }
+
+    public void display() {
+        printValue(5);
+    }
+}

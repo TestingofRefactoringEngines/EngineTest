@@ -1,0 +1,61 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+Schema,struct,Layout,572100,https://bugs.eclipse.org/bugs/show_bug.cgi?id=572100,Move member type to new File
+Schema,isPrimitive,Layout,572639,https://bugs.eclipse.org/bugs/show_bug.cgi?id=572639,Move member type to new File
+Foo,Bar,Bar,564684,https://bugs.eclipse.org/bugs/show_bug.cgi?id=564684,Move member Type to New File
+A,moveMe,B,486175,https://bugs.eclipse.org/bugs/show_bug.cgi?id=486175,move method
+Source,Stack,Destination,108147,https://bugs.eclipse.org/bugs/show_bug.cgi?id=108147,move method
+A,print,Second,41468,https://bugs.eclipse.org/bugs/show_bug.cgi?id=41468,move method
+A,m,B,356687,https://bugs.eclipse.org/bugs/show_bug.cgi?id=356687,move method
+B,n,A,411529,https://bugs.eclipse.org/bugs/show_bug.cgi?id=411529,move method
+SynchronizedCommandStack,execute,Command,347389,https://bugs.eclipse.org/bugs/show_bug.cgi?id=347389,Move member Type to new File
+A,x,X,305103,https://bugs.eclipse.org/bugs/show_bug.cgi?id=305103,Move member type to new file
+Test,main,Color,88396,https://bugs.eclipse.org/bugs/show_bug.cgi?id=88396,move member type to new file
+O,m,S,286221,https://bugs.eclipse.org/bugs/show_bug.cgi?id=286221,move method
+Foo,Bar,P,102020,https://bugs.eclipse.org/bugs/show_bug.cgi?id=102020,Move Member Type to New File
+A,doit,B,108030,https://bugs.eclipse.org/bugs/show_bug.cgi?id=108030,move method
+Inner,Inner,Outer,120432,https://bugs.eclipse.org/bugs/show_bug.cgi?id=120432,move member type to new file
+A,foo,C,118063,https://bugs.eclipse.org/bugs/show_bug.cgi?id=118063,move method
+A,foo,B,97521,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97521,move method
+,,,127556,https://bugs.eclipse.org/bugs/show_bug.cgi?id=127556,Move Member Type to New File
+,,,124659,https://bugs.eclipse.org/bugs/show_bug.cgi?id=124659,Move Member Type to New File
+Foo,foo,Bar,114509,https://bugs.eclipse.org/bugs/show_bug.cgi?id=114509,move instance method
+Test1,methodToMove,TestTarget,117465,https://bugs.eclipse.org/bugs/show_bug.cgi?id=117465,move method
+Inner,a,B,111056,https://bugs.eclipse.org/bugs/show_bug.cgi?id=111056,Move Member Type to New File
+MoveToNewFile,getA,Try,100555,https://bugs.eclipse.org/bugs/show_bug.cgi?id=100555,Move Member Type to New File
+Sub,Color,,99605,https://bugs.eclipse.org/bugs/show_bug.cgi?id=99605,Move Member Type to New File
+A,B,,99789,https://bugs.eclipse.org/bugs/show_bug.cgi?id=99789,Move Member Type to New File
+A,B,,97529,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97529,move member type to new file
+Inner,addTo,Bar,95153,https://bugs.eclipse.org/bugs/show_bug.cgi?id=95153,move member type to new file
+AnnotationInvoker,invoke,CopyOfHelperType,95148,https://bugs.eclipse.org/bugs/show_bug.cgi?id=95148,Move member type to new file
+Inner,foo,Exposer,95145,https://bugs.eclipse.org/bugs/show_bug.cgi?id=95145,Move member type to new file
+Source,getInt,Target,96172,https://bugs.eclipse.org/bugs/show_bug.cgi?id=96172,move method
+Superclass,Inner,,63519,https://bugs.eclipse.org/bugs/show_bug.cgi?id=63519,Move member type to new file
+OriginalClass,originalMethod,TargetClass,1305,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/1305,Move method
+Foo,Bar,,338,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/338,Move Type to New File
+X,x,Y,321620,https://youtrack.jetbrains.com/issue/IDEA-321620/Move-Static-Members-produces-red-code-when-static-import-is-present,Move Static Members
+Hooray,map,Eff,93582,https://youtrack.jetbrains.com/issue/IDEA-93582/Moving-more-than-one-static-method-at-a-time-leaves-broken-calls-between-them.,move method
+H,foo,Usage,93741,https://youtrack.jetbrains.com/issue/IDEA-93741/Move-static-member-does-not-update-static-imports,Move Static Members
+Source,foo,Target,81323,https://youtrack.jetbrains.com/issue/IDEA-81323/Move-method-in-the-class-with-same-name-method,move method
+Flim,main,Flam,82103,https://youtrack.jetbrains.com/issue/IDEA-82103/Move-Method-breaks-code,move method
+A,m,B,84207,https://youtrack.jetbrains.com/issue/IDEA-84207/Refactor-Move-method-bug,move method
+Constants,FOO,Example,147539,https://youtrack.jetbrains.com/issue/IDEA-147539/Move-Static-Members-refactor-breaks-switch-statements,Move Static Members
+MoveInstanceBug1,doSomething,MyInterface,88471,https://youtrack.jetbrains.com/issue/IDEA-88471/Move-instance-method-can-generate-bad-code-when-moving-to-an-interface,move method
+MoveMethdBreaksReference,notNull,Destination,155147,https://youtrack.jetbrains.com/issue/IDEA-155147/move-method-breaks-method-reference-and-results-in-compile-error,move method
+Three,important,Two,151440,https://youtrack.jetbrains.com/issue/IDEA-151440/No-Move-Members-refactoring-warning-when-move-will-hide-existing-member,move method
+A,m,B,78519,https://youtrack.jetbrains.com/issue/IDEA-78519/move-method-refactoring-introduces-error-for-overloaded-methods,move method
+MoveBug,doStuff,SubClass,250421,https://bz.apache.org/netbeans/show_bug.cgi?id=250421,move method
+TestRefactorMove,lowerMembers,SomethingElse,247462,https://bz.apache.org/netbeans/show_bug.cgi?id=247462,move method
+Foo,method,Bar,232110,https://bz.apache.org/netbeans/show_bug.cgi?id=232110,move method
+SourceClass,mmm,TargetClass,207179,https://bz.apache.org/netbeans/show_bug.cgi?id=207179,move method
+A,create,B,222403,https://bz.apache.org/netbeans/show_bug.cgi?id=222403,move method
+A,getRecursive,B,216700,https://bz.apache.org/netbeans/show_bug.cgi?id=216700,move method
+SourceClass,dependentMethod,TargetClass,7305,https://github.com/apache/netbeans/issues/7305,move method
+SourceClass,methodToMove,TargetClass,7313,https://github.com/apache/netbeans/issues/7313,Move method
+SourceClass,moveMethod,TargetClass,7314,https://github.com/apache/netbeans/issues/7314,Move method
+SourceClass,methodToMove,TargetClass,7312,https://github.com/apache/netbeans/issues/7312,Move method
+SourceClass,methodUsingPrivateConstructor,TargetClass,7311,https://github.com/apache/netbeans/issues/7311,Move method
+SourceClass,myMethod,TargetClass,7310,https://github.com/apache/netbeans/issues/7310,Move method
+SourceClass,originalMethod,TargetClass,7308,https://github.com/apache/netbeans/issues/7308,Move method
+OriginalClass?,m,B,7307,https://github.com/apache/netbeans/issues/7307,Move method
+OriginalClass?,myMethod,TargetClass?,7309,https://github.com/apache/netbeans/issues/7309,Move method
+OriginalClass?,callMethod,TargetClass?,7306,https://github.com/apache/netbeans/issues/7306,Move method

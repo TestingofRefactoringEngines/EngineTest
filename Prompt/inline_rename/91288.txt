@@ -1,0 +1,6 @@
+class C {
+    private void computeIndex(Boolean flag) {
+        Integer iii = flag ? 1 : 2;
+        iii.byteValue();
+    }
+}

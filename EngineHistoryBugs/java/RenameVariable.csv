@@ -1,0 +1,11 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+foo,local ,local2,574736,https://bugs.eclipse.org/bugs/show_bug.cgi?id=574736,rename variable
+method,comp,method1,573624,https://bugs.eclipse.org/bugs/show_bug.cgi?id=573624,rename parameter
+,One ,,532996,https://bugs.eclipse.org/bugs/show_bug.cgi?id=532996,rename variable
+Test,asdf ,,289655,https://bugs.eclipse.org/bugs/show_bug.cgi?id=289655,rename variable
+,,,308147,https://bugs.eclipse.org/bugs/show_bug.cgi?id=308147,rename variable
+Inner ,y,x,235564,https://bz.apache.org/netbeans/show_bug.cgi?id=235564,Rename variable
+RenameLocalVariable ,local,,206574,https://bz.apache.org/netbeans/show_bug.cgi?id=206574,rename local variable
+X,xy,xyz,156,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/156,rename variable
+X,s1,s,81427,https://youtrack.jetbrains.com/issue/IDEA-81427/Rename-inserts-this-qualifier-before-static-field-reference,rename variable
+Test,j,i,7304,https://github.com/apache/netbeans/issues/7304,Rename variable

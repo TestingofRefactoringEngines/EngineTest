@@ -1,0 +1,11 @@
+When I select the keyword "super" and perform the extract local variable refactoring, the new method name is "newVar" and I click "OK", a syntax compilation error occurs：
+
+class OrginalClass {
+public void f() {}
+}
+class OtherClass extends OrginalClass{
+public void c() {
+// extract local variable: super
+super.f();
+}
+}

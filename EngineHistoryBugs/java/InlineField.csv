@@ -1,0 +1,10 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+ X,i,,408966,https://bugs.eclipse.org/bugs/show_bug.cgi?id=408966,inline constant
+Bug,array,,109071,https://bugs.eclipse.org/bugs/show_bug.cgi?id=109071,inline field
+main,a,,343148,https://youtrack.jetbrains.com/issue/IDEA-343148/Introduce-constant-causes-exception-for-implicit-classes,Introduce constant
+Date,result,,300134,https://youtrack.jetbrains.com/issue/IDEA-300134/Introduce-Field-in-an-interface-should-probably-be-disabled,Introduce Field
+Local,locally,,198440,https://youtrack.jetbrains.com/issue/IDEA-198440/Introducing-field-of-local-class-type-should-probably-be-disallowed,introduce field
+JavaClass,createReader,,125141,https://youtrack.jetbrains.com/issue/IDEA-125141/Introduce-constant-field-throws-ClassCastException-when-variable-is-used-in-try-with-resources-statement,introduce field
+,,,83723,https://youtrack.jetbrains.com/issue/IDEA-83723/Intruduce-constant-refactoring-fails-on-specific-string,introduce constant
+,,,97001,https://youtrack.jetbrains.com/issue/IDEA-97001/Couldnt-finish-Introduce-Field-refactoring,introduce field
+Test,run,,91150,https://youtrack.jetbrains.com/issue/IDEA-91150/JDK-1.8-Inline-Field-Refactoring-applied-to-a-lambda-field-doesnt-insert-cast,inline field

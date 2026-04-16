@@ -1,0 +1,15 @@
+public class A {
+    protected final int a = 1;
+}
+public class B {
+    void main() {
+        final int b = 2;
+        new A() {
+            void m() {
+                System.out.println(b);
+            }
+        };
+    }
+}
+
+If in class "A" I do rename field "a" to "b", it silently does it, and in class "B" "println" statement becomes to print value of field (not local var).

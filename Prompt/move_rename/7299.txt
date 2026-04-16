@@ -1,0 +1,18 @@
+
+public class A {
+	    void m(){
+	        int i= 0;
+	        class B {
+	            int j;
+	            void k(){
+	                j= i;
+	            }
+	        }
+
+	        class C {
+	        	B b;
+		 // move 'i' to class 'B'
+	            int i=1;
+	        }
+	    };
+	}

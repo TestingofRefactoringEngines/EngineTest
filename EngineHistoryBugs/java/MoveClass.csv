@@ -1,0 +1,13 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+R,R,X,566982,https://bugs.eclipse.org/bugs/show_bug.cgi?id=566982,move class
+R,i,X,566939,https://bugs.eclipse.org/bugs/show_bug.cgi?id=566939,move class
+Foo,X,Y,540873,https://bugs.eclipse.org/bugs/show_bug.cgi?id=540873,move class
+,,,270360,https://bz.apache.org/netbeans/show_bug.cgi?id=270360,Move class
+RefactoringLambda,I,,259004,https://bz.apache.org/netbeans/show_bug.cgi?id=259004,Move Inner to Outer Level
+,,,236189,https://bz.apache.org/netbeans/show_bug.cgi?id=236189,move inner class to outer level
+Sample,SampleEnum ,,249299,https://bz.apache.org/netbeans/show_bug.cgi?id=249299,Move Inner to Outer level
+Upper,Inner,b,104986,https://youtrack.jetbrains.com/issue/IDEA-104986/Make-inner-class-incorrect-accessibility-warning-about-inner-class,move class
+Main,A,,140839,https://youtrack.jetbrains.com/issue/IDEA-140839/Generic-arguments-are-incorrectly-refactored-when-nested-classes-are-involved.,move class to upper level
+Foo,Bar,Baz,114908,https://youtrack.jetbrains.com/issue/IDEA-114908/Moving-a-static-method-and-static-inner-class-creates-broken-code,move class to upper level
+A,Bar,,154628,https://youtrack.jetbrains.com/issue/IDEA-154628/Incorrect-constructor-...-will-become-inaccessible-...-warning-during-refactoring,Move class to upper level
+,,,210915,https://bz.apache.org/netbeans/show_bug.cgi?id=210915,pull up class

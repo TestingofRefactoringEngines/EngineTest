@@ -1,0 +1,6 @@
+public class A {
+    public void originalMethod() {
+        System.out.println("Executing part 1");
+        System.out.println("Executing part 2");
+    }
+}

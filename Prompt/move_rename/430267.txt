@@ -1,0 +1,12 @@
+class A {
+    B b;
+    void method() {
+        System.out.println("Hello");
+    }
+}
+
+class B {
+    void call() {
+        new A().method(); 
+    }
+}

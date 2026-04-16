@@ -1,0 +1,46 @@
+public class TestCase {
+	 public static void main(String[] args) {
+	        B b = new B();
+	        C c = new C();
+	        
+	        // Test 1: Call f() which contains m("1")
+	        System.out.print("B.f() output: ");
+	        b.f();
+	        
+	        System.out.print("C.f() output: ");
+	        c.f();
+	        
+	        // Test 2: Direct method calls with different parameter types
+	        System.out.print("B.m(String): ");
+	        b.m("test");
+	        
+	        System.out.print("B.m(Object): ");
+	        b.m(new Object());
+	        
+	        System.out.print("C.m(String): ");
+	        c.m("test");
+	        
+	        System.out.print("C.m(Object): ");
+	        c.m(new Object());
+	    }
+}
+
+class A {
+    void m(Object m) {
+        System.out.println("A");
+    }
+}
+class B extends A {
+    void k(String m) {
+        System.out.println("B");
+    }
+    void f() {
+        m("1");
+    }
+    // pull up ‘m’
+    void m(String m) {
+        System.out.println("B");
+    }
+}
+class C extends B{
+}

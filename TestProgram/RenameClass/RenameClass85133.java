@@ -1,0 +1,11 @@
+java.lang.NullPointerException
+	at
+org.eclipse.jdt.internal.debug.ui.BreakpointUtils.addJavaBreakpointAttributes(BreakpointUtils.java:205)
+	at
+org.eclipse.jdt.internal.debug.core.refactoring.JavaLineBreakpointTypeChange.performChange(JavaLineBreakpointTypeChange.java:59)
+	at
+org.eclipse.jdt.internal.debug.core.refactoring.JavaBreakpointTypeChange.performTypeRename(JavaBreakpointTypeChange.java:274)
+	at
+org.eclipse.jdt.internal.debug.core.refactoring.JavaBreakpointTypeChange.perform(JavaBreakpointTypeChange.java:235)
+	at
+org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:270)

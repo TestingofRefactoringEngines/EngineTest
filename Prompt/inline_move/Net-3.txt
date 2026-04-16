@@ -1,0 +1,19 @@
+class ParentClass {
+	void method() {
+	}
+}
+
+class SourceClass {
+	void method() {
+	}
+
+	class InnerClass extends ParentClass {
+		void testMethod() {
+			f() ;
+		}
+	}
+       // inline method 'f()'
+	void f() {
+		method();
+	}
+}

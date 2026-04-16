@@ -1,0 +1,11 @@
+class A{
+private int calculate(int a) {
+    return a * 2;
+}
+
+private void process() {
+    int result = calculate(5);
+    System.out.println(result);
+}
+
+}

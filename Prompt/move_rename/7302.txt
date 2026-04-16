@@ -1,0 +1,15 @@
+class B {
+
+}
+
+class A extends B {
+    static public void m() {
+    }
+}
+
+class C {
+    B b;
+
+    void m() {
+    }
+}

@@ -1,0 +1,19 @@
+public class A {
+    B fB;
+
+    public void subroutine(float subArg) {
+        subsub();
+    }
+
+    public void subsub() {
+
+    }
+
+}
+
+class B {
+
+    public void doit(String doitArg, A a) {
+        a.subroutine(1.2f);
+    }
+}

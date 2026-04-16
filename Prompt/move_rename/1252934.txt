@@ -1,0 +1,17 @@
+public class A {
+   
+}
+public class B {
+    void main() {
+        final int b = 2;
+        new A() {
+            void m() {
+                System.out.println(b);
+            }
+        };
+    }
+}
+
+class C extends A{
+ protected final int a = 1;
+}

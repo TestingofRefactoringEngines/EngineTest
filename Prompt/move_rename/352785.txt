@@ -1,0 +1,11 @@
+public class Example {
+    public void foo(int value) {
+        if (value > 0) {
+            bar(value);
+        }
+    }
+
+    public void bar(int value) {
+        System.out.println(value);
+    }
+}

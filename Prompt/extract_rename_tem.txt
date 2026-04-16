@@ -1,0 +1,60 @@
+You are an expert in software testing and refactoring, please modify the following historical refactoring case based on the given example to generate test cases for other refactoring types：
+[Example of source code:[record R() {// select R and Refactor->Extract Interface
+	private void foo(Object o) {
+		if (o instanceof R) {
+			System.out.println("hello");
+		}
+	}
+
+}   after extraction:[class X {// select X and use Extract Interface
+	public static void main(String[] args) {
+		R r = null;
+	}
+	private void foo(Object o) {
+		X x = null;
+		if (o instanceof X) { // this does not change 
+			System.out.println("hello");
+		}
+	}
+}
+]
+refactoring type: extract class; refactoring operation: rename "k()" t0 "m()"
+Extract transformation migrated to Rename Refactoring：class NewName {// select X and use Extract Interface
+	public static void main(String[] args) {
+		R r = null;
+	}
+	private void foo(Object o) {
+		NewName x = null;
+		if (o instanceof NewName) { // this does not change 
+			System.out.println("hello");
+		}
+	}
+}
+Extract transformation migrated to Move Refactoring：record R() {// select R and Refactor->Extract Interface
+	private void foo(Object o) {
+		if (o instanceof R) {
+			System.out.println("hello");
+		}
+	}
+
+}
+class NewName{}
+Please perform similar migrations on the follo
+wing programs as described above, and fill in the concrete Extract Refactoring code example after migration,change method:[source code:   public void myTest(List list, String s1, String s2) {
+}
+
+public void myTest(Collection list, String s1, String s2) {
+}
+
+public void usage() {
+List list = new ArrayList();
+String aa = "AA";
+String bb = "bb";
+myTest(list, aa, bb);
+Collection col = new ArrayList();
+myTest(col, aa, bb);
+}
+][refactoring type: extract method; refactoring operation: extract "" to ""]
+Please generate the migration results code below:
+[The result of migration to Rename Refactoring：{}]
+[The result of migration to Move Refactoring：{}]

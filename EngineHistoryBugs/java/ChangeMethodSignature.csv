@@ -1,0 +1,41 @@
+SourceClass,Position,newName,id_number,html_url,refactoring type
+RefactorWithVarArgsBug,RefactorWithVarArgsBug,change parameter,546819,https://bugs.eclipse.org/bugs/show_bug.cgi?id=546819,change method signature
+R,foo,bar,566866,https://bugs.eclipse.org/bugs/show_bug.cgi?id=566866,change method signature
+Cls1 ,args,change parameter,567438,https://bugs.eclipse.org/bugs/show_bug.cgi?id=567438,change method signature
+Clazz ,Clazz2 ,class name,305182,https://bugs.eclipse.org/bugs/show_bug.cgi?id=305182,Change Method Signature
+X,lambda ,#VALUE!,429498,https://bugs.eclipse.org/bugs/show_bug.cgi?id=429498,Change Method Signature
+ChangeMethodSignatureBug ,a,change parameter,393829,https://bugs.eclipse.org/bugs/show_bug.cgi?id=393829,Change Method Signature
+,testThis,change modifier,137363,https://bugs.eclipse.org/bugs/show_bug.cgi?id=137363,change method signature
+Try,abc,abs,138320,https://bugs.eclipse.org/bugs/show_bug.cgi?id=138320,change signature
+Foo ,foo,add parameter,119394,https://bugs.eclipse.org/bugs/show_bug.cgi?id=119394,Change method Signature
+MyList,toString,add parameter,100846,https://bugs.eclipse.org/bugs/show_bug.cgi?id=100846,change method signature
+C,Class,change parameter,98394,https://bugs.eclipse.org/bugs/show_bug.cgi?id=98394,change method signature
+,foo,change parameter,97397,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97397,change method signature
+,packetReceived,change parameter,88806,https://bugs.eclipse.org/bugs/show_bug.cgi?id=88806,change method signature
+,setUp,change parameter,95121,https://bugs.eclipse.org/bugs/show_bug.cgi?id=95121,change method signature
+Test ,getValue,change parameter,88167,https://bugs.eclipse.org/bugs/show_bug.cgi?id=88167,change method signature
+SampleClass,sampleMethod2 ,add parameter,254704,https://bz.apache.org/netbeans/show_bug.cgi?id=254704,Change Method Parameters
+RefactoringDemo,analyzeFile,is,215256,https://bz.apache.org/netbeans/show_bug.cgi?id=215256,Change Method Parameters
+,,add parameter,218053,https://bz.apache.org/netbeans/show_bug.cgi?id=218053,Change Method Parameters
+,add parameter,add parameter,318626,https://youtrack.jetbrains.com/issue/IDEA-318626/Change-signature-incorrectly-wraps-unwraps-arguments-when-changing-between-varargs-and-arrays,change method signature
+X,foo,add parameter,104308,https://youtrack.jetbrains.com/issue/IDEA-104308/Change-Signature-Method-parameter-default-value-becomes-fully-qualified-after-refactoring-is-applied,change method signature
+Foo,Foo,add parameter,105483,https://youtrack.jetbrains.com/issue/IDEA-105483/Add-constructor-parameters-ignores-parameters-whose-names-clash-with-field-names,change method signature
+,doSomething,add parameter,110332,https://youtrack.jetbrains.com/issue/IDEA-110332/Reordering-parameters-via-Change-Signature-refactoring-breaks-Javadoc,change method signature
+,abc,remove parameter,140384,https://youtrack.jetbrains.com/issue/IDEA-140384/Javadoc-link-breaks-on-refactoring,change method signature
+ClassB,methodB,remove parameter,110601,https://youtrack.jetbrains.com/issue/IDEA-110601/Change-Signature-with-parameter-propagation-breaks-parameter-in-method-call,change method signature
+,foo,change parameter,111735,https://youtrack.jetbrains.com/issue/IDEA-111735/Change-Signature-refactoring-corrupts-javadoc-links-references-to-the-method,change method signature
+A,foo,add parameter,142350,https://youtrack.jetbrains.com/issue/IDEA-142350/Change-Signature-Default-values-are-used-inside-of-methods-overriding-callers-chosen-for-parameter-propagation,change method signature
+,foo,change parameter,142378,https://youtrack.jetbrains.com/issue/IDEA-142378/Cannot-delete-refactor-a-type-variable-for-a-generic-method,change method signature
+,method,change parameter,110654,https://youtrack.jetbrains.com/issue/IDEA-110654/Change-Signature-inserts-unnecessary-new-line-in-comment-block,change method signature
+ChangeClassSignatureAddParameter,test,add parameter,82661,https://youtrack.jetbrains.com/issue/IDEA-82661/change-type-signature-refactoring-results-in-the-bad-code-when-that-type-is-used-in-the-instanceof,change class signature
+AAA,AAA,add parameter,97203,https://youtrack.jetbrains.com/issue/IDEA-97203/Change-constructor-signature-add-Exception-break-code,change method signature
+,,javadoc,147535,https://youtrack.jetbrains.com/issue/IDEA-147535/refactor-deleting-a-method-argument-retains-javadocs-of-deleted-argument,change method signature
+,alwaysTrue,add parameter,152114,https://youtrack.jetbrains.com/issue/IDEA-152114/Change-signature-warns-but-not-change-method-reference-to-lambda,change method signature
+,,javadoc,87521,https://youtrack.jetbrains.com/issue/IDEA-87521/Change-Signature-refactoring-doesnt-keep-existing-parameter-javadoc,change method signature
+,foo,@Override,154669,https://youtrack.jetbrains.com/issue/IDEA-154669/Change-signature-should-remove-Override-when-refactor-only-current-method,change method signature
+,perform,add parameter,150138,https://youtrack.jetbrains.com/issue/IDEA-150138/Refactoring-functional-interface-signatures,change method signature
+,method,change parameter,82043,https://youtrack.jetbrains.com/issue/IDEA-82043/change-signature-quick-fix-corrupts-text,change method signature
+,foo,return type,103174,https://youtrack.jetbrains.com/issue/IDEA-103174/JDK-1.8-Type-Annotations-Change-Signature-Refactoring-allows-adding-annotations-shows-them-in-preview-but-doesnt-actually-add,change method signature
+,consumer,change parameter,152386,https://youtrack.jetbrains.com/issue/IDEA-152386/Change-method-signature-works-incorrectly-with-method-references-when-adding-exception,change method signature
+,X_CLASS,change parameter,150149,https://youtrack.jetbrains.com/issue/IDEA-150149/CtrlF6-Change-Class-Signature-can-generate-syntax-errors-when-adding-generic-type-arguments,change class signature
+,f,add parameter,119700,https://youtrack.jetbrains.com/issue/IDEA-119700/Javadoc-Silently-Deleted-During-Refactoring,change method signature

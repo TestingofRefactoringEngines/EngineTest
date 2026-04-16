@@ -1,0 +1,13 @@
+    def calculate_stats(self):
+        min_threshold = (self.processed_value * 0.8)
+        print(f"min: {min_threshold}")
+
+        self._raw_value = 20
+        max_threshold = (self.processed_value * 0.8)
+        print(f"max: {max_threshold}")
+
+        self._scale = 3
+        avg_threshold = (self.processed_value * 0.8)
+        print(f"avg: {avg_threshold}")
+
+        return min_threshold, max_threshold, avg_threshold

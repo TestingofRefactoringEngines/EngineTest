@@ -1,0 +1,19 @@
+SourceClass,Position,NewClass,id_number,html_url,refactoring type
+MyClass ,field,MySuperclass ,573884,https://bugs.eclipse.org/bugs/show_bug.cgi?id=573884,extract superclass
+R,R,,566851,https://bugs.eclipse.org/bugs/show_bug.cgi?id=566851,extract interface
+ExtractClassBug ,field,NestedClass,394547,https://bugs.eclipse.org/bugs/show_bug.cgi?id=394547,extract class
+Test ,field,comment,408124,https://bugs.eclipse.org/bugs/show_bug.cgi?id=408124,extract class
+Subclass ,method,Extracted ,149775,https://bugs.eclipse.org/bugs/show_bug.cgi?id=149775,extract superclass
+ClassA ,Superclass,,170239,https://bugs.eclipse.org/bugs/show_bug.cgi?id=170239,extract superclass
+,,,140580,https://bugs.eclipse.org/bugs/show_bug.cgi?id=140580,extract superclass
+,methods,,104030,https://bugs.eclipse.org/bugs/show_bug.cgi?id=104030,extract interface
+Foo ,foo,,94676,https://bugs.eclipse.org/bugs/show_bug.cgi?id=94676,extract interface
+SubGeneric,methods,,89520,https://bugs.eclipse.org/bugs/show_bug.cgi?id=89520,extract interface
+SubGeneric,methods,,89523,https://bugs.eclipse.org/bugs/show_bug.cgi?id=89523,extract interface
+Main ,,,192416,https://bz.apache.org/netbeans/show_bug.cgi?id=192416,Extract superclass
+Test,fields,,103509,https://youtrack.jetbrains.com/issue/IDEA-103509/extract-class-as-enum-refactoring-generates-bad-code,extract class
+,main,,109576,https://youtrack.jetbrains.com/issue/IDEA-109576/Extract-interface-refactoring-breaks-foreach-loops,extract interface
+Bar,method1,SuperBar,139615,https://youtrack.jetbrains.com/issue/IDEA-139615/Extract-Interface-doesnt-handle-multiple-type-parameters-creates-broken-code,extract interface
+FooEnumInterface,FOO3,,141301,https://youtrack.jetbrains.com/issue/IDEA-141301/Refactor-extract-interface-creates-not-compilable-code-if-enum-constants-are-selected-in-dialog,extract interface
+X,fields,,112590,https://youtrack.jetbrains.com/issue/IDEA-112590/Extract-class-as-enum-breaks-code-when-multiple-constants-are-in-one-declaration,extract class
+,fields,,144369,https://youtrack.jetbrains.com/issue/IDEA-144369/Extract-delegate-converts-field-to-foo.field-foo.field-1,extract delegate

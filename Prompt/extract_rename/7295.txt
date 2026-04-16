@@ -1,0 +1,11 @@
+When I select "1" and perform the extract local variable refactoring, the new method name is "y" and I click "OK", a syntax compilation error occurs：
+
+class A {
+int y=2;
+int main() {
+// extract variable:1, new name "y"
+int x = 1;
+System.out.println(y);
+return 0;
+}
+}

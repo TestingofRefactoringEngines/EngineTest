@@ -1,0 +1,18 @@
+class One {
+    static boolean truth = true;
+    static void important() {
+        System.out.println(1);
+    }
+}
+class Two extends One {
+    Two() {
+        important();
+        System.out.println(truth);
+    }
+}
+class Three {
+    static boolean truth = false;
+    static void important() {
+        System.out.println(2);
+    }
+}

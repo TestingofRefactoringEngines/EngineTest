@@ -1,0 +1,6 @@
+int y = 20;
+
+int main(){
+    int x = 10; //extract local variable, name "y"
+    return 0;
+}

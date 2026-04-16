@@ -1,0 +1,10 @@
+// rename person to s
+def defparam(person):
+    """
+    @param person: Who should think.
+    @type person: L{Person} or L{Animal}
+    @return:
+    """
+
+    person.some_method()
+

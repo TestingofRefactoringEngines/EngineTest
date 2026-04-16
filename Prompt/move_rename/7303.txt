@@ -1,0 +1,9 @@
+interface I{
+
+}
+class A{
+	I i;
+	String m() throws Exception {
+		return null;
+	}
+}

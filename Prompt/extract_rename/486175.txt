@@ -1,0 +1,23 @@
+public class B {
+	public void m() {
+	}
+
+	void testMethod() {
+		m();
+		A.staticMethod();
+	}
+}
+import b.B;
+
+public class A {
+	public B b = new B();
+
+	public static void staticMethod() {
+	}
+
+	void moveMe() {
+		b.m();
+		staticMethod();
+	}
+}
+

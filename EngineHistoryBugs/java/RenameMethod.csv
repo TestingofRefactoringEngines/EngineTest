@@ -1,0 +1,19 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+AbstractInformationControl ,selekt,,475186,https://bugs.eclipse.org/bugs/show_bug.cgi?id=475186,rename method
+,,,547094,https://bugs.eclipse.org/bugs/show_bug.cgi?id=547094,rename method
+MethodTest ,methodThree,MethodTest ,280518,https://bugs.eclipse.org/bugs/show_bug.cgi?id=280518,rename method
+,,,81441,https://bugs.eclipse.org/bugs/show_bug.cgi?id=81441,rename method
+X,foo,bar,67260,https://bugs.eclipse.org/bugs/show_bug.cgi?id=67260,rename method
+,,,254599,https://bz.apache.org/netbeans/show_bug.cgi?id=254599,Rename method
+,,,253179,https://bz.apache.org/netbeans/show_bug.cgi?id=253179,rename method
+Iface ,test,,228708,https://bz.apache.org/netbeans/show_bug.cgi?id=228708,rename method
+,,,592,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/592,rename method
+,,,201,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/201,rename method
+User,getName,getFirstName,221,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/221,rename method
+Test,va<caret>lueOf,values,139827,https://youtrack.jetbrains.com/issue/IDEA-139827/Avoid-the-perform-of-rename-refactoring-at-the-implicit-enum-elements-e.g.-values-method,rename method
+GrandSon,doMyOwn,,142867,https://youtrack.jetbrains.com/issue/IDEA-142867/Refactor-Rename-only-current-method-keeps-Override-annotation,rename method
+RenameTest,foo1,foo2,83831,https://youtrack.jetbrains.com/issue/IDEA-83831/rename...-silently-replaces-one-method-with-another,rename method
+NewClass,m?,k,7301,https://github.com/apache/netbeans/issues/7301,Rename method
+B,k,m,7300,https://github.com/apache/netbeans/issues/7300,Rename method
+B,k,m,7302,https://github.com/apache/netbeans/issues/7302,Rename method
+I,m,toString,7303,https://github.com/apache/netbeans/issues/7303,Rename method

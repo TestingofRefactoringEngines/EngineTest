@@ -1,0 +1,17 @@
+class Foo {
+    private Bar _bar;
+
+    public void foo() {
+        _bar.bar();
+    }
+}
+
+class Bar extends Foo{
+    public void bar() {}
+    void x(Foo f) {
+        f.foo();
+    }
+    void f(){
+        foo();
+    }
+}

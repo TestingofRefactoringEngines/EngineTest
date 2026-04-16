@@ -1,0 +1,14 @@
+ class Outer extends BaseOuter {
+    public void bar() {
+        Outer foo = this;
+
+        new Object() {
+            public void run() {
+                foo.baz(); // inline 'foo' variable
+            }
+        };
+    }
+
+    public void baz() {
+    }
+}

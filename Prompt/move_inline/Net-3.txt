@@ -1,0 +1,22 @@
+
+class ParentClass {
+
+}
+
+class SourceClass {
+	void method() {
+	}
+
+	class InnerClass extends ParentClass {
+		void testMethod() {
+			method();
+		}
+	}
+}
+
+class A {
+	ParentClass parentClass;
+
+	void method() {
+	}
+}

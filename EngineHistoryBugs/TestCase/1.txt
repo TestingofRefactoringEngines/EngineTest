@@ -1,0 +1,33 @@
+public class TestRefactoring {
+    public static void main(String[] args) {
+        B obj = new B();
+        // Test Case: Invoke method `m` with a non-String Object argument
+        // Purpose: Expose potential behavioral inconsistency due to method overloading and inheritance rules
+        Object nonStringArg = Integer.valueOf(42);
+        obj.m(nonStringArg);  // Critical: Pass an Object that is not a String
+        obj.f();  
+    }
+}
+class A {
+    void m(Object m) {
+        System.out.println("A");
+    }
+}
+
+class B extends A {
+    void k(String m) {
+        System.out.println("B");
+    }
+
+    void f() {
+        m("1");
+    }
+}
+
+class C {
+    B b;
+    // move m() to class B
+    void m(String m) {
+        System.out.println("B");
+    }
+}

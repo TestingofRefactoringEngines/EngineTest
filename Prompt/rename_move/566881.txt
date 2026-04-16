@@ -1,0 +1,11 @@
+class A {
+    void print(String message) {
+        System.out.println(message);
+    }
+}
+
+class B {
+    void show() {
+        new A().print("Hello");
+    }
+}

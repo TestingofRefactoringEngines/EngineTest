@@ -1,0 +1,9 @@
+class Example {
+    void greet(String name) {
+        System.out.println("Hello, " + name);
+    }
+
+    public void execute() {
+        greet("World");
+    }
+}

@@ -1,0 +1,12 @@
+class CSome {
+	 int x;
+public:
+    void Foo () {};
+};
+
+int main ()
+{
+    CSome A;
+    A.Foo(); // extract statements, name "Foo"
+    return 0;
+}

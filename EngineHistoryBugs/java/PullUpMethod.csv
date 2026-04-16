@@ -1,0 +1,19 @@
+SourceClass,Position,TargetClass,id_number,html_url,refactoring type
+Foo,log,IFoo ,497368,https://bugs.eclipse.org/bugs/show_bug.cgi?id=497368,pull up method
+Foo ,method,Bar,396524,https://bugs.eclipse.org/bugs/show_bug.cgi?id=396524,pull up method
+PullUpBaz,b,PullUpToInterfaceBug.Foo,444354,https://bugs.eclipse.org/bugs/show_bug.cgi?id=444354,pull up method
+Square,getArea,Shape,426963,https://bugs.eclipse.org/bugs/show_bug.cgi?id=426963,pull up method
+C,foo,I1,393932,https://bugs.eclipse.org/bugs/show_bug.cgi?id=393932,pull up method
+,,,125326,https://bugs.eclipse.org/bugs/show_bug.cgi?id=125326,pull up method
+SubclassA ,foo,PullUpLosesAnnotation ,113385,https://bugs.eclipse.org/bugs/show_bug.cgi?id=113385,pull up method
+Foo,test,IFoo,118045,https://bugs.eclipse.org/bugs/show_bug.cgi?id=118045,pull up method
+Stats,countItem,Collector,106329,https://bugs.eclipse.org/bugs/show_bug.cgi?id=106329,pull up method
+SubType,sub,SuperType,97209,https://bugs.eclipse.org/bugs/show_bug.cgi?id=97209,pull up method
+B,m,A,91542,https://bugs.eclipse.org/bugs/show_bug.cgi?id=91542,pull up method
+C,foo,A,81151,https://bugs.eclipse.org/bugs/show_bug.cgi?id=81151,pull up method
+TestClass,method,MyIface,230930,https://bz.apache.org/netbeans/show_bug.cgi?id=230930,pull up method
+B,Y,A,134034,https://bz.apache.org/netbeans/show_bug.cgi?id=134034,pull up method
+B,m,A,578,https://github.com/eclipse-jdt/eclipse.jdt.ui/issues/578,pull up method
+E,values,I,311673,https://youtrack.jetbrains.com/issue/IDEA-311673/Pull-members-up-refactoring-should-not-allow-pulling-up-synthetic-enum-methods,pull up method
+R,i,I,311563,https://youtrack.jetbrains.com/issue/IDEA-311563/Pull-members-up-refactoring-should-not-allow-pulling-up-non-abstract-record-accessor-method,pull up method
+SimplePlanet,mass,IPlanet,151809,https://youtrack.jetbrains.com/issue/IDEA-151809/No-warning-when-Pull-Up-method-to-the-interface-dependent-on-the-instance-variable,pull up method

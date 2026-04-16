@@ -1,0 +1,37 @@
+------- SuperType.java ---------
+package com.example;
+
+
+
+public class SuperType<ELEM extends Number> {
+
+	void add(ELEM e) {
+
+	}
+
+	
+
+	ELEM get() {
+
+		return null;
+
+	}
+
+}
+
+------- SubType.java -----------
+package com.example;
+
+
+
+public class SubType<ELEM> extends SuperType<Integer> {
+
+	void sub(Integer i) {
+
+		add(i);
+
+	}
+
+
+
+}
